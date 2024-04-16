@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="total-body">
+    <div class="first">
+        <a id="tittle" href="http://vigneshgbe.unaux.com" ><h1>To-Do-List</h1></a>
+    </div>
+    <div class="second">
+        <div>
+            <input id="input" placeholder="Enter Data">
+            <button class="btn" onclick="add()">Add Events</button>
+            <ol id="list-container">
+                <li class="task">Enter Your First Task
+                    <button class="btn" onclick="deleteitems(event)">Delete</button>
+                </li>
+                <li class="task">Be a Productive Person
+                    <button class="btn" onclick="deleteitems(event)">Delete</button>
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
